@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM golang:1.19
+FROM docker.io/library/golang:1.20
 
 # Set destination for COPY
 WORKDIR /app
